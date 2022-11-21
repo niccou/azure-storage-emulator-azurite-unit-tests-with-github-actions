@@ -3,13 +3,18 @@
 	"image": "mcr.microsoft.com/devcontainers/dotnet:0-6.0",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {}
-	}
+	},
+
+	"extensions": [
+		"ms-dotnettools.csharp",
+		"cschleiden.vscode-github-actions"
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5001],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "dotnet restore",
+	"postCreateCommand": "npm install -g azurite"
 
 	// Configure tool-specific properties.
 	// "customizations": {},

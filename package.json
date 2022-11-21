@@ -1,0 +1,11 @@
+{
+  "name": "azure-storage-emulator-azurite-unit-tests-with-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/niccou/azure-storage-emulator-azurite-unit-tests-with-github-actions",
+  "author": "Nicolas Cousin <contact@nicolas-cousin.com>",
+  "license": "MIT",
+  "dependencies": {
+    "azurite": "^3.20.1"
+  }
+}
